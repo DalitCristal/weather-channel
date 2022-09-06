@@ -1,0 +1,116 @@
+:root {
+    --blanco: #FFFFFF;
+    --rojo: #ff1e42;
+    --rojo-opacity: #c3112d;
+    --azul: #0a1f44;
+    --azul-opacity: #1e2432;
+    --gris: #717681;
+}
+  
+html {
+    box-sizing: border-box;
+    font-size: 16px;
+    scroll-behavior: smooth;
+}
+  
+*,
+  *::after,
+  *::before {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    background: var(--azul);
+    color: var(--blanco);
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4rem;
+    letter-spacing: 0.02em;
+}
+
+button {
+    font-size: 1rem;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    padding: 15px 20px;
+    margin-left: 15px;
+    border-radius: 5px;
+    background: var(--rojo);
+}
+  
+button:hover {
+    background: var(--rojo-opacity);
+}
+
+button,
+input {
+  border: none;
+  background: none;
+  outline: none;
+  color: var(--blanco);
+}
+
+#ciudad {
+    font-size: 2rem;
+    color: var(--gris);
+}
+
+.ciudades {
+    padding: 40px 10%; 
+}
+
+.container {
+    background-color: var(--blanco);
+    color: var(--azul-opacity);
+    width: 300px;
+    height: 350px;
+    border-radius: 20px;
+    margin-left: 50px;
+    visibility : hidden;
+    margin: 50px auto;
+}
+
+#descripcion {
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--gris);
+}
+
+.encabezado {
+    text-align: center;
+}
+
+img {
+    width: 4rem;
+}
+
+input {
+    font-size: 2rem;
+    height: 40px;
+    padding: 5px 5px 10px;
+    border-bottom: 1px solid;
+}
+
+sup {
+    font-weight: normal;
+    font-size: 2.5rem;
+}
+
+#temperatura {
+    font-size: 5rem;
+    font-weight: bold;
+}
+
+ul {
+    list-style: none;
+}
+
+
+
+
+
+
+
